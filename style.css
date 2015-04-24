@@ -1,0 +1,184 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+    /*background-color: #7FB651;  1f5127*/
+    background: #1f3b08; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #1f3b08 0%, #3a7059 82%, #697a5b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1f3b08),
+                color-stop(82%,#3a7059), color-stop(100%,#697a5b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #1f3b08 0%,#3a7059 82%,#697a5b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #1f3b08 0%,#3a7059 82%,#697a5b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #1f3b08 0%,#3a7059 82%,#697a5b 100%); /* IE10+ */
+    background: linear-gradient(45deg, #1f3b08 0%,#3a7059 82%,#697a5b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f3b08',
+            endColorstr='#697a5b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#treez, #treez-crop{ width: 100%; position: fixed; bottom: 0px; }
+
+#barry{
+    max-width: 25%;
+}
+
+#pressRelease{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: .5em;
+    color: black;
+    background-color: white;
+    font-size: 1.2em;
+    box-shadow: 3px 3px 3px #142605;
+}
+/* bio things*/
+#about{ text-align: center; width: 95%; color: white; }
+.aboutUs{ display: inline-block; width: 100%; }
+.bio{ display: table-row; margin: 1em; }
+.aboutLeft{ float: left;}
+.aboutRight{ float: right; text-align: right;}
+.aboutLeft, .aboutRight{ margin: 2em; }
+.bio .info span{font-size: 1.4em;}
+
+.bio .selfie{
+    display: table-cell;
+    max-height: 8em;
+    max-width: 8em;
+    height: auto;
+    width: auto;
+    border-radius: 6em;
+    overflow: hidden;
+    vertical-align:middle;
+}
+.bio .info{
+    padding: 0 1em;
+    display: table-cell;
+    vertical-align:middle;
+    max-width: 25em;
+
+}
+
+
+
+/* header stylings (& add post btn) */
+#header{
+    display: block;
+    padding: .5 em;
+    width: 100%;
+}
+.logo{
+    display: block;
+    width: 95%;
+    text-align: center;
+    font-weight: 100;
+    padding: .5em;
+    font-size: 2em;
+    color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+.see-thru-menu{
+    position: fixed;
+    bottom: 10px;
+    margin-top: 1em;
+    height: 4em;
+    background-color: #333333;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    width: 100%;
+    /*box-shadow: 3px -3px 3px black;*/
+}
+#footer{
+    position: fixed;
+    bottom: 10px;
+    margin-top: 1em;
+    height: 4em;
+    width: 100%;
+}
+#accent{
+    display: block;
+    width: 100%;
+    background-color: #3E7411;
+    height: 1em;
+}
+
+
+
+.menu-btn{
+    opacity: 1;
+    float: right;
+    display: inline-block;
+    padding: 1em ;
+}
+
+.menu-btn.left{ float: left; }
+
+.menu-btn a{ text-decoration: none; font-size: 1.25em; color: white; }
+.menu-btn a:hover{ text-decoration: underline; cursor: pointer; color: #D1C34E; }
+
+a#add-btn{
+    text-decoration: none;
+    color: white;
+    border-radius: 2em;
+    height: 1.5em;
+    width: 1.5em;
+    padding: .5em;
+    font-size: 2em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #b43c3b;
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+a i{ color: #D1C34E}/* #4F8A3A; */
+a#add-btn:hover{
+    box-shadow: inset 3px 3px 3px #742f2e;
+    color: #e0df69;
+}
+
+/* home/landing stylings*/
+#welcome{ font-size: 4em; display: inline-block; color: #0c3b5a; }
+
+.table-lay#content{ display: table-row; }
+a.sq-btn{
+    text-decoration:none;
+    color:#fff;
+    height:1.5em;
+    padding:.5em;
+    font-size:2em;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#b43c3b;
+    box-shadow:3px 3px 3px #888;
+    display: inline-block;
+}
+
+.left-col{ display: inline-block; }
+.right-col{ display: table-cell; vertical-align:middle; }
+
+#header .logo a img { max-height: 1.1em; }
+
+/* post feed stylings*/
+#content{ margin: auto; width: 80%; max-width: 800px; }
+
+/*owl carousel*/
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
